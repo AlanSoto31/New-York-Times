@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid #E2E1E1;
+    position: sticky;
 }
 
 .icons-nav {
@@ -25,6 +26,7 @@
 .anchor-nav a {
     text-decoration: none;
     color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
