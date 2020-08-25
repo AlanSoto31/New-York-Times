@@ -11,13 +11,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid #E2E1E1;
+    height:40px;
 }
 
 .icons-nav {
     display: flex;
     justify-content: space-between;
-    width: 230px;
-    margin-left: 15px;
+    width: 205px;
+    margin-left: 20px;
+    
+}
+
+.icons-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   font-size: 14px;
+}
+
+.icons-nav a:hover {
+   border-bottom: 1px solid black;
 }
 
 .img-nav {
@@ -27,12 +41,15 @@
 .btn {
     background: rgb(86, 123, 149);
     color: white;
-    padding: 15px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-size: 11px;
     font-weight: bold;
     border-radius: 4px;
     transition-duration: 0.4s;
     margin-right: 20px;
+    height: 33px;
+   
+
 }
 
 .btn:hover{
