@@ -74,6 +74,18 @@
 }
 
 
+.main-image-container {
+    width: 777px;
+    height: 437px;
+    margin: auto;
+}
 
+.main-image {
+    width: 100%;
+    height: auto;
+}
 
+h1 {
+    text-align: center;
+}
 
