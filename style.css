@@ -76,7 +76,7 @@
 
 .main-image-container {
     min-width: 600px;
-    max-width: 1200px;
+    max-width: 950px;
     margin: auto;
     margin-top:70px;
     /*border: 1px solid black;*/
@@ -102,10 +102,183 @@
 }
 
 .text-main-img {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     opacity: .6;
     text-align: left;
-    margin-left: 160px;
+    margin-left: 200px;
     margin-top: 10px;
+}
+
+.icon-img {
+    width:15px;
+
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+}
+
+.icon-title {
+    position: absolute;
+   margin-left: 350px;
+   margin-top: 50px;
+   
+}
+
+.icon-title p {
+    margin-top: 30px;
+    font-size: 13px;
+
+}
+
+.icon-container {
+    display: flex;
+    float: right;
+    margin-right: 350px;
+    margin-top: 95px;
+    justify-content: space-between;
+    width: 300px;
+   }
+
+   .f-icon {
+     width: 30px;
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+   }
+
+   .e-icon {
+    width: 30px;
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+   }
+
+   .sh-icon {
+  width: 30px;
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+
+   }
+
+   .com-icon {
+  width: 30px;
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+   }
+
+.t-icon {
+     width: 30px;
+    border-radius: 50%;
+     border-color: #969696;
+     background-color:#969696;
+     padding-top: 5px;
+     padding-left: 5px;
+}
+
+article  {
+    width: 600px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+article p {
+line-height: 30px;
+    font-size: 20px;
+    font-family:"times new roman";
+
+
+}
+
+article h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside {
+    width: 30%;
+    float: right;
+  overflow: auto;
+  margin-left: 750px;
+  position: absolute;
+
+
+}
+
+
+.p-side p{
+    margin: 0;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.p-side{
+    height: 100px;
+    
+
+}
+.p-side:after {
+      content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 10%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black;
+   }
+
+.p-side:before {
+      content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 10%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black;
+   
+}
+
+.p-side a {
+    font-size: 15px;
+    color: #326891;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.img-container2 {
+    height: 480px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.tel-img {
+    width: 100%;
+}
+
+.img-container2 p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #666666;
+
+}
+
+.video-container p {
+    font-size: 15px;
+    color: #666666;
 }
