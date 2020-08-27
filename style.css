@@ -8,7 +8,7 @@
 
 hr {
     border-style: solid;
-    border-width: 1px;
+    border-width: .2px;
 }
 
 .nav-container {
@@ -210,18 +210,15 @@ hr {
 
 .main-prg  {
     width: 600px;
-    justify-content: center;
+    margin: auto;
     text-align: left;
     margin-top: 200px;
-    margin-left: 350px;
 }
 
 .main-prg p {
 line-height: 30px;
     font-size: 20px;
     font-family:"times new roman";
-
-
 }
 
 .main-prg h4 {
@@ -229,13 +226,50 @@ line-height: 30px;
     font-weight: bold;
 }
 
-aside {
-    width: 30%;
-    float: right;
-  overflow: auto;
-  margin-left: 750px;
-  position: absolute;
+
+
+
+
+
+
+
+.aside-section {
+    width: 210px;
+    position: absolute;
+    top: 1900px;
+    right: 150px;
 }
+
+.aside-section h4 {
+    margin-bottom: 10px;
+}
+
+.aside-images {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;;
+}
+
+.aside-text {
+    font-size: 16px;
+    line-height: 17px;
+    opacity: .7;
+}
+
+.aside-images-container {
+    display: block;
+    overflow: auto;
+    margin: 15px 0;
+}
+
+.aside-hr {
+    opacity: .2;
+}
+
+
+
+
 
 
 .p-side p{
