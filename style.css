@@ -131,19 +131,26 @@ hr {
 
 
 .icon-img {
-    width:15px;
-
-    border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
-     padding-top: 5px;
+    width:30px;
+height: 30px;
+padding-top: 5px;
      padding-left: 5px;
+     margin-bottom: 5px;
+cursor: pointer;
 }
+
+.icon-img:hover {
+     background-color: white;
+  transition: 0.2s;
+}
+
 
 .icon-title {
     position: absolute;
-   margin-left: 350px;
-   margin-top: 50px;
+   margin-left: 380px;
+   margin-top: 100px;
+   color: #333333;
+   
    
 }
 
@@ -153,59 +160,117 @@ hr {
 
 }
 
+
+.icon-title a {
+    color: #333333;
+}
+
+.icon-title a:hover{
+    text-decoration: none;
+}
+
+.icon-title {
+    
+    position: absolute;
+
+}
+
 .icon-container {
     display: flex;
     float: right;
     margin-right: 350px;
-    margin-top: 95px;
+    margin-top: 125px;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
-   }
+    height: 50px;
+    
+    }
+
+    .icon-title h5 {
+        font-size: 15px;
+        display: inline;
+    }
 
    .f-icon {
-     width: 30px;
+     width: 25px;
+     height: 25px;
     border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
+     border-color: #EBEBEB;
+     background-color:#EBEBEB;
      padding-top: 5px;
-     padding-left: 5px;
+     padding-left: 7px;
+     cursor: pointer;
    }
+
+   .f-icon:hover {
+     background-color: white;
+  transition-duration: 0.1s;
+  border: 1px solid #EBEBEB;
+
+
+}
+   
 
    .e-icon {
-    width: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
+     border-color: #EBEBEB;
+     background-color:#EBEBEB;
      padding-top: 5px;
      padding-left: 5px;
+     cursor: pointer;
    }
 
+   .e-icon:hover {
+  background-color: white;
+  transition: 0.2s;
+  border-color: #7a7a7a;
+}
+
    .sh-icon {
-  width: 30px;
+  width: 25px;
+  height: 25px;
     border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
+     border-color: #EBEBEB;
+     background-color:#EBEBEB;
      padding-top: 5px;
      padding-left: 5px;
+     cursor: pointer;
 
+   }
+     .sh-icon:hover {
+ background-color: white;
+  transition: 0.2s;
    }
 
    .com-icon {
-  width: 30px;
-    border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
-     padding-top: 5px;
-     padding-left: 5px;
+  width: 50px;
+  height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+    
+   }
+.com-icon:hover {
+     background-color: white;
+  transition: 0.2s;
    }
 
 .t-icon {
-     width: 30px;
+     width: 25px;
+     height: 25px;
     border-radius: 50%;
-     border-color: #969696;
-     background-color:#969696;
+     border-color:#CCCCCC ;
+    background-color:#EBEBEB;
      padding-top: 5px;
      padding-left: 5px;
+     cursor: pointer;
+}
+
+.t-icon:hover {
+  background-color: white;
+  transition: 0.2s;
 }
 
 .main-prg  {
@@ -422,4 +487,110 @@ line-height: 30px;
 
 .inflation-article footer p{
     margin-top: 20px;
+}
+
+h6 {
+    font-size: 11px;
+    color: #7D7DAD;
+    font-weight: 550;
+    line-height: 15px;
+    font-family: helvetica;
+}
+
+h6 a {
+     color: #7D7DAD;
+}
+
+h6 a:hover {
+    text-decoration: none;
+}
+
+
+.btn-icon {
+    margin-top: 20px;
+    display: flex;
+    width: 150px;
+
+    align-items: center;
+    float: right;
+    margin-right: 350px;
+    justify-content: space-between;
+    
+}
+
+.fa-facebook-f-2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    padding-top: 5px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.fa-facebook-f-2:hover {
+    background-color: white;
+    }
+
+
+.fa-twitter-2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+
+.fa-twitter-2:hover {
+    background-color: white;
+}
+
+.fa-envelope-2 {
+width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+
+.fa-envelope-2:hover {
+    background-color: white;
+}
+
+.fa-share-2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.fa-share-2:hover {
+    background-color: white;
+}
+
+.read-btn {
+    background-color: #376A92;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    margin-left: 377px;
+    margin-top: 20px;
+    border: 1px solid #326891;
+    border-radius: 3%
+
 }
