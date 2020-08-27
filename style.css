@@ -594,3 +594,155 @@ width: 25px;
     border-radius: 3%
 
 }
+
+
+
+
+
+
+.final-article-section{
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.final-article {
+    float: left;
+}
+
+.moreInSpace-grid-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 273px 273px 273px;
+    grid-template-rows: 39px 288px 288px 39px 288px;
+    grid-gap: 15px;
+}
+
+.moreInSpace-imgs-container {
+    width: 273px;
+    height: 288px;
+    cursor: pointer;
+}
+
+.moreInSpace-imgs {
+    width: auto;
+    height: 182px;
+}
+
+.img-footer {
+    font-size: 10px;
+    margin: 4px 0;
+    opacity: .6;
+    text-align: right;
+}
+
+.img-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.img-title:hover {
+    opacity: .6;
+}
+
+.img-date {
+    font-size: 10px;
+    margin: 4px 0;
+    opacity: .6;
+    text-align: left;
+}
+
+
+
+
+.final-article-header-1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.img-1 {
+    grid-column: 1/2; 
+    grid-row: 2/3;
+}
+
+.img-2 {
+    grid-column: 2/3; 
+    grid-row: 2/3;
+}
+
+.img-3 {
+    grid-column: 3/4; 
+    grid-row: 2/3;
+}
+
+.img-4 {
+    grid-column: 1/2; 
+    grid-row: 3/4;
+}
+
+.img-5 {
+    grid-column: 2/3; 
+    grid-row: 3/4;
+}
+
+.img-6 {
+    grid-column: 3/4; 
+    grid-row: 3/4;
+}
+
+.final-article-header-2{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.img-7 {
+    grid-column: 1/2; 
+    grid-row: 5/6;
+}
+
+.img-8 {
+    grid-column: 2/3; 
+    grid-row: 5/6;
+}
+
+.img-9 {
+    grid-column: 3/4; 
+    grid-row: 5/6;
+}
+
+
+
+
+
+.aside-final-article{
+    float: right;
+    margin-left: 20px;
+}
+
+.aside-final-article-grid-container {
+    width: 318px;
+}
+
+.final-article-titles {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.aside-final-article-containers {
+    cursor: pointer;
+}
+
+.aside-final-article-containers hr {
+    opacity: .1;
+}
+
+.aside-articles-titles {
+    font-size: 18px;
+    line-height: 17px;
+    padding: 18px 0;
+}
+
+.aside-articles-titles:hover {
+    opacity: .7;
+}
