@@ -12,11 +12,14 @@ hr {
 }
 
 .nav-container {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid #E2E1E1;
-    position: sticky;
+    position: fixed;
+    background: white;
+    top: 0px;
 }
 
 .icons-nav {
@@ -505,15 +508,29 @@ h6 a:hover {
     text-decoration: none;
 }
 
+.comments-container{
+    margin: 25px 0;
+}
+
+.read-btn {
+    background-color: #376A92;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+    border: 1px solid #326891;
+    border-radius: 3%
+}
 
 .btn-icon {
-    margin-top: 20px;
     display: flex;
     width: 150px;
-
     align-items: center;
     float: right;
-    margin-right: 350px;
     justify-content: space-between;
     
 }
@@ -577,23 +594,7 @@ width: 25px;
     background-color: white;
 }
 
-.read-btn {
-    background-color: #376A92;
-    color: white;
-    width: 300px;
-    height: 35px;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    position: relative;
-    justify-content: center;
-    margin-left: 377px;
-    margin-top: 20px;
-    border: 1px solid #326891;
-    border-radius: 3%
 
-}
 
 
 
@@ -602,7 +603,7 @@ width: 25px;
 
 .final-article-section{
     width: 1200px;
-    margin: auto;
+    margin: 65px auto;
     overflow: auto;
 }
 
