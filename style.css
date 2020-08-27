@@ -763,6 +763,7 @@ width: 25px;
     display: grid;
     grid-template-columns: repeat(6, 197px);
     grid-template-rows: 44px 385px 56px;
+
 }
 
 
@@ -777,11 +778,15 @@ width: 25px;
     font-size: 15px;
 }
 
+.news-a-container:hover {
+    text-decoration: underline;
+}
+
 .containers li {
     padding: 3px 0;
 } 
 
-.main-footer-container h4 {
+.container-h4 {
     grid-column: 1/-1;
     grid-row: 1/2;
     /*border: 1px solid black;*/
@@ -842,5 +847,11 @@ width: 25px;
     color: black;
     font-size: 12px;
     opacity: .7;
+}
+
+.last-row-a:hover {
+    text-decoration: underline;
+    
+    cursor: pointer;
 }
 
