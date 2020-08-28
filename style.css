@@ -8,6 +8,8 @@
 
 /*Start of Global variables*/
 
+
+
 .flex {
     display: flex;
 }
@@ -39,6 +41,10 @@
     margin: auto;
 }
 
+.d-grid {
+    display: grid;
+}
+
 /*End of Global variables*/
 
 
@@ -58,13 +64,13 @@
 }
 
 .icons-nav {
-    /*justify-content: space-between;*/
+
     width: 230px;
     margin-left: 20px;
 }
 
 .anchor-nav a {
-    /*text-decoration: none;*/
+  
     color: black;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: bold;
@@ -102,7 +108,7 @@
     color: white;
     padding: 10px 15px 10px 15px;
     font-size: 11px;
-    /*font-weight: bold;*/
+   
     border-radius: 4px;
     transition-duration: 0.4s;
     height: 33px;
@@ -124,14 +130,13 @@
     min-width: 600px;
     max-width: 950px;
     margin: auto;
-    /*border: 1px solid black;*/
+   
 }
 
 .main-image-container {
     margin: auto;
     margin-top:70px;
-    /*display: flex;
-    align-items: center;*/
+   
     flex-direction: column;
 }
 
@@ -175,8 +180,7 @@
 }
 
 .icon-container {
-    /*display: flex;*/
-   /* justify-content: space-between;*/
+
     align-items: flex-end;
     width: 300px;
     float: right;
@@ -433,7 +437,7 @@ line-height: 30px;
     width: 100%;
     height: 576px;
     margin-bottom: 40px;
-    display: grid;
+  
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 10px;
@@ -530,8 +534,8 @@ h6 a:hover {
 .btn-icon {
     width: 150px;
     float: right;
-    /*justify-content: space-between;*/
 }
+   
 
 .fa-facebook-f-2 {
     width: 25px;
@@ -611,7 +615,7 @@ h6 a:hover {
 
 .moreInSpace-grid-container {
     margin: auto;
-    display: grid;
+   
     grid-template-columns: 273px 273px 273px;
     grid-template-rows: 39px 288px 288px 39px 288px;
     grid-gap: 15px;
@@ -760,7 +764,7 @@ h6 a:hover {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 80px;
-    display: grid;
+  
     grid-template-columns: repeat(6, 197px);
     grid-template-rows: 44px 385px 56px;
 }
@@ -793,7 +797,7 @@ h6 a:hover {
 .container-h4 {
     grid-column: 1/-1;
     grid-row: 1/2;
-    /*justify-content: space-between;*/
+   
 }
 
 .container-h4 a {
@@ -897,7 +901,7 @@ h6 a:hover {
 
 
 .fotter-text-container {
-    display: grid;
+  
     grid-template-columns: 1fr 1fr 1fr ;
     width: 100%;
     background-color: white;
