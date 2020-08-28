@@ -12,7 +12,8 @@
 }
 
 .lighter-hrs {
-    opacity: .2;
+    
+    color: #E2E2E2; 
 }
 
 .nav-container {
@@ -888,3 +889,40 @@ width: 25px;
     cursor: pointer;
 }
 
+.small-container {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.last-li-container {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.fotter-text-container {
+  
+   position: sticky;
+    bottom: 0px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    }
+
+.fotter-text-container p {
+    padding: 20px 0px;
+  
+    
+}
+
+.xxx {
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 35%;
+  
+
+}
+
+.yyy {
+    position: absolute;
+ border: 1px solid black;
+ margin-left: 185px;
+}
