@@ -6,38 +6,65 @@
     box-sizing: border-box;
 }
 
+/*Start of Global variables*/
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.fixed-position {
+    position: fixed;
+    background: white;
+    z-index: 2;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.m-a{
+    margin: auto;
+}
+
+/*End of Global variables*/
+
+
 .most-hrs {
     border-style: solid;
     border-width: .2px;
 }
 
 .lighter-hrs {
-    
     color: #E2E2E2; 
 }
 
 .nav-container {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     border: 1px solid #E2E1E1;
-    position: fixed;
-    background: white;
     top: 0px;
-    z-index: 2;
 }
 
 .icons-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-between;*/
     width: 230px;
     margin-left: 20px;
 }
 
 .anchor-nav a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: black;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: bold;
@@ -75,7 +102,7 @@
     color: white;
     padding: 10px 15px 10px 15px;
     font-size: 11px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     border-radius: 4px;
     transition-duration: 0.4s;
     height: 33px;
@@ -103,10 +130,9 @@
 .main-image-container {
     margin: auto;
     margin-top:70px;
-    display: flex;
+    /*display: flex;
+    align-items: center;*/
     flex-direction: column;
-    align-items: center;
-    /*border: 1px solid black;*/
 }
 
 .main-image {
@@ -149,12 +175,13 @@
 }
 
 .icon-container {
-    display: flex;
+    /*display: flex;*/
+   /* justify-content: space-between;*/
+    align-items: flex-end;
     width: 300px;
     float: right;
     margin-top: 35px;
-    justify-content: space-between;
-    align-items: flex-end;
+    
 }
 
 .icon-title p {
@@ -175,16 +202,16 @@
     display: inline;
 }
 
-   .f-icon {
-     width: 25px;
-     height: 25px;
+.f-icon {
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-     border-color: #EBEBEB;
-     background-color:#EBEBEB;
-     padding-top: 5px;
-     padding-left: 7px;
-     cursor: pointer;
-   }
+    border-color: #EBEBEB;
+    background-color:#EBEBEB;
+    padding-top: 5px;
+    padding-left: 7px;
+    cursor: pointer;
+}
 
    .f-icon:hover {
      background-color: white;
@@ -356,24 +383,6 @@ line-height: 30px;
     
 
 }
-.p-side:after {
-      content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 10%; /* Change this to whatever width you want. */
-    padding-top: 10px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid black;
-   }
-
-.p-side:before {
-      content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 10%; /* Change this to whatever width you want. */
-    padding-top: 10px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid black;
-   
-}
 
 .p-side a {
     font-size: 15px;
@@ -408,12 +417,6 @@ line-height: 30px;
 
 
 
-
-
-
-
-
-
 .short-hr {
     width: 75px;
 }
@@ -421,7 +424,6 @@ line-height: 30px;
 .inflation-article {
     width: 945px;
     margin: 20px auto;
-    /*border: 1px solid black;*/
 }
 
 .grid-container {
@@ -435,14 +437,12 @@ line-height: 30px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 10px;
-    /*border: 1px solid black;*/
 }
 
 .prg-img {
     font-size: 14px;
     line-height: 17px;
     font-weight: 300;
-    /*border: 1px solid black;*/
 }
 
 .bold {
@@ -528,12 +528,9 @@ h6 a:hover {
 }
 
 .btn-icon {
-    display: flex;
     width: 150px;
-    align-items: center;
     float: right;
-    justify-content: space-between;
-    
+    /*justify-content: space-between;*/
 }
 
 .fa-facebook-f-2 {
@@ -567,7 +564,7 @@ h6 a:hover {
 }
 
 .fa-envelope-2 {
-width: 25px;
+    width: 25px;
     height: 25px;
     border-radius: 50%;
     background-color: #EBEBEB;
@@ -766,7 +763,6 @@ width: 25px;
     display: grid;
     grid-template-columns: repeat(6, 197px);
     grid-template-rows: 44px 385px 56px;
-    /*border: 1px solid black;*/
 }
 
 .doble-hr {
@@ -797,8 +793,7 @@ width: 25px;
 .container-h4 {
     grid-column: 1/-1;
     grid-row: 1/2;
-    display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .container-h4 a {
@@ -855,7 +850,6 @@ width: 25px;
     grid-row: 2/3;
     border-left: 1px solid rgb(179, 175, 175);
     padding-left: 15px;
-    /*border: 1px solid black;*/
 }
 
 .last-row-seudo-footer {
@@ -922,7 +916,6 @@ width: 25px;
 .yyy {
     grid-column:3/4;
     cursor: pointer;
-    display: flex;
     justify-content: center;
 }
 
