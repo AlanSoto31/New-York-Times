@@ -193,12 +193,12 @@
   padding-top: 5px;
   padding-left: 7px;
   cursor: pointer;
+  transition-duration: 0.3s;
+  border: 1px solid #ebebeb;
 }
 
 .f-icon:hover {
-  background-color: white;
-  transition-duration: 0.1s;
-  border: 1px solid #ebebeb;
+  background-color: white;  
 }
 
 .t-icon {
@@ -210,11 +210,12 @@
   padding-top: 5px;
   padding-left: 5px;
   cursor: pointer;
+  transition-duration: 0.3s;
+  border: 1px solid #ebebeb;
 }
 
 .t-icon:hover {
   background-color: white;
-  transition: 0.2s;
 }
 
 .e-icon {
@@ -226,12 +227,12 @@
   padding-top: 5px;
   padding-left: 5px;
   cursor: pointer;
+  transition-duration: 0.3s;
+  border: 1px solid #ebebeb;
 }
 
 .e-icon:hover {
   background-color: white;
-  transition: 0.2s;
-  border-color: #7a7a7a;
 }
 
 .sh-icon {
@@ -331,6 +332,14 @@
 
 .p-side {
   height: 100px;
+  margin-top: 15px;
+}
+
+.subscribe-hr {
+    width: 60px;
+    /*border: 1px solid black;*/
+    margin:10px auto;
+    color: #CCCCCC;
 }
 
 .subscribe-a {
