@@ -65,14 +65,14 @@
   margin-left: 20px;
 }
 
-.anchor-nav a {
+.anchor-nav-a {
   color: black;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
 }
 
-.anchor-nav a:hover {
+.anchor-nav-a:hover {
   border-bottom: 1px solid black;
 }
 
@@ -135,8 +135,7 @@
 }
 
 .title-container h1 {
-  font-family: cheltenham;
-  font-weight: italic;
+  font-weight: bold;
   font-size: 40px;
   text-align: left;
 }
@@ -172,11 +171,11 @@
   font-size: 13px;
 }
 
-.icon-title a {
+.icon-a {
   color: #333;
 }
 
-.icon-title a:hover {
+.icon-a:hover {
   text-decoration: none;
 }
 
@@ -217,7 +216,6 @@
   background-color: white;
   transition: 0.2s;
 }
-
 
 .e-icon {
   width: 25px;
@@ -289,7 +287,7 @@
 .main-prg p {
   line-height: 30px;
   font-size: 20px;
-  font-family: "times new roman";
+  font-family: Times, sans-serif;
 }
 
 .main-prg h4 {
@@ -331,6 +329,18 @@
   opacity: 0.2;
 }
 
+.p-side {
+  height: 100px;
+}
+
+.subscribe-a {
+  font-size: 15px;
+  color: #326891;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
 .p-side p {
   margin: 0;
   font-size: 15px;
@@ -338,18 +348,6 @@
   text-align: center;
   color: black;
   font-weight: bold;
-}
-
-.p-side {
-  height: 100px;
-}
-
-.p-side a {
-  font-size: 15px;
-  color: #326891;
-  font-weight: bold;
-  text-decoration: none;
-  margin-bottom: 0;
 }
 
 .img-container2 {
@@ -453,14 +451,14 @@ h6 {
   color: #7d7dad;
   font-weight: 550;
   line-height: 15px;
-  font-family: helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
-h6 a {
+.h6-a {
   color: #7d7dad;
 }
 
-h6 a:hover {
+.h6-a:hover {
   text-decoration: none;
 }
 
@@ -486,7 +484,6 @@ h6 a:hover {
   width: 150px;
   float: right;
 }
-
 
 .fa-facebook-f-2 {
   width: 25px;
@@ -823,18 +820,18 @@ h6 a:hover {
   bottom: 0;
 }
 
-.xxx {
+.footer-p-1 {
   grid-column: 2/3;
   cursor: pointer;
 }
 
-.yyy {
+.footer-p-2 {
   grid-column: 3/4;
   cursor: pointer;
   justify-content: center;
 }
 
-.yyy p {
+.very-last-p {
   margin-right: 30px;
   font-weight: bold;
 }
