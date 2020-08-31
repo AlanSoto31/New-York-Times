@@ -198,7 +198,7 @@
 }
 
 .f-icon:hover {
-  background-color: white;  
+  background-color: white;
 }
 
 .t-icon {
@@ -336,10 +336,11 @@
 }
 
 .subscribe-hr {
-    width: 60px;
-    /*border: 1px solid black;*/
-    margin:10px auto;
-    color: #CCCCCC;
+  width: 60px;
+
+  /* border: 1px solid black; */
+  margin: 10px auto;
+  color: #ccc;
 }
 
 .subscribe-a {

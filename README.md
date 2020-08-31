@@ -15,7 +15,8 @@ The project is about a clone from New York Times homepage.
 
 Prerequisites - Chrome browser
 
-*Setup
+## Set up
+
  - $ cd "folder location"
  - $ git clone git@github.com:AlanSoto31/New-York-Times.git
 * Install
